@@ -22,9 +22,7 @@ This project implements a **two-stage Loss Given Default (LGD)** modeling pipeli
 
 To estimate **Expected Loss (EL)** using:
 
-\[
-\text{Expected Loss} = \text{PD} \times \text{LGD} \times \text{EAD}
-\]
+![Expected_Loss_Formula](Expected_Loss_Formula.jpg)
 
 This notebook focuses on **LGD modeling** in two stages:
 1. **Stage 1:** Classify if any recovery will happen (`recovery_rate > 0`)
