@@ -13,7 +13,6 @@ This project implements a **two-stage Loss Given Default (LGD)** modeling pipeli
   - Logistic regression with p-values (using Fisher Information Matrix)
   - Linear regression with t-statistics and p-values
 - 🔍 Exploratory data analysis and feature engineering
-- 📁 Model persistence using `pickle`
 - 🧪 Performance evaluation using metrics such as ROC-AUC, confusion matrix, and R²
 
 ---
@@ -99,9 +98,6 @@ Classify if recovery is **0 or non-zero**
   - ROC-AUC Score
   - Visual ROC Curve
 
-### Output:
-- Saved model: `lgd_model_stage_1.sav`
-
 ---
 
 ## 🧮 Stage 2: Linear Regression
@@ -116,9 +112,3 @@ Predict **actual recovery rate** (when it's > 0)
 - Evaluation:
   - R² Score
   - Model coefficients with significance levels
-
----
-
-## 💾 Model Persistence
-
-Both models are saved using Python's `pickle` module for deployment or future reuse.
