@@ -23,8 +23,7 @@ This project implements a **two-stage Loss Given Default (LGD)** modeling pipeli
 To estimate **Expected Loss (EL)** using:
 
 ![Expected_Loss_Formula](Expected_Loss_Formula.png)
- 
-`**EL = PD × LGD × EAD**`  
+  
 where:  
 - **PD (Probability of Default)** – Likelihood that a borrower will default  
 - **LGD (Loss Given Default)** – Percentage of exposure lost if default occurs  
